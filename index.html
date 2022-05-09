@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./devchallenges.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="title"> Checkout </h1>
+
+
+
+      <aside class="cart">
+  
+        <article class="articles">
+          <div class="article">
+            <img class="article-img" src="./imgs/photo1.png" />
+
+            <div>
+              <div class="article-data" >
+                <h3 class="article-name">Vintage Backbag</h3>
+                <span class="offer-price">$54.99</span>
+                <span class="unit-price">$94.99</span>
+              </div>
+  
+              <div class="units">
+                  <button>-</button> 1 <button>+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <img class="article-img" src="./imgs/photo2.png" />
+
+            <div>
+              <div class="article-data" >
+                <h3 class="article-name">Levi Shoes</h3>
+                <span class="offer-price">$74.99</span>
+                <span class="unit-price">$124.99</span>
+              </div>
+  
+              <div class="units">
+                  <button>-</button> 1 <button>+</button>
+              </div>
+            </div>
+          </div>
+        </article>
+  
+        <div class="total-price">
+          <span class="total">Shipping <p>$19</p></span>
+          <span class="total">Total <p>$148.98</p></span>
+        </div>
+
+      </aside>
+
+
+<!-- FORM -->
+      <form class="contact-information">
+        <h4 class="form-title">Contact Information</h4>
+
+        <label class="input-title">E-mail</label>
+        <div class="input">
+          <input class="input-text" type="text" placeholder="Enter your email..." />
+          <span class="input-icon material-icons ">mail</span>
+        </div>
+
+        <label class="input-title">Phone</label>
+        <div class="input">
+          <input class="input-text" type="text" placeholder="Enter your email..." />
+          <span class="input-icon material-icons ">phone</span>
+        </div>
+
+        <h4 class="form-title mt-1">Shipping address</h4>
+
+        <label class="input-title">Full name</label>
+        <div class="input">
+          <input class="input-text" type="text" placeholder="Your name..." />
+          <span class="input-icon material-icons ">account_circle</span>
+        </div>
+
+        <label class="input-title">Address</label>
+        <div class="input">
+          <input class="input-text" type="text" placeholder="Your address..." />
+          <span class="input-icon material-icons ">home</span>
+        </div>
+
+        <label class="input-title">City</label>
+        <div class="input">
+          <input class="input-text" type="text" placeholder="Your city..." />
+          <span class="input-icon material-icons ">location_city</span>
+        </div>
+
+        <div class="postal-country">
+          <div>
+            <label class="input-title">Country</label>
+            <div class="input">
+              <input class="input-text-2" type="text" placeholder="Your country..." />
+              <span class="input-icon material-icons ">location_city</span>
+            </div>
+          </div>
+  
+          <div>
+            <label class="input-title">Postal code</label>
+            <div class="input">
+              <input class="input-text-2" type="text" placeholder="Your postal code.." />
+              <span class="input-icon material-icons ">markunread_mailbox</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" class="input-check" />
+          <label class="check-text">Save this Information for next time</label>
+        </div>
+
+        <button class="submit-button">
+          Continue
+        </button>
+      </form>
+
+      <span class="credits">created by "<p class="username">Edgardo Caña</p>" - devChallenges.io</span>
+
+    </div>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
